@@ -1,5 +1,5 @@
 {
   "apps": [{
-    "styles": ["theme.scss"]
+    "styles": ["theme.scss","/styles.css"]
   }]
 }

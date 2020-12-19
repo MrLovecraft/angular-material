@@ -17,6 +17,7 @@ import {
 import { AppComponent } from "./app.component";
 import { ExamplesComponent } from "./examples/examples.component";
 import { HomeComponent } from "./home/home.component";
+import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
 
 @NgModule({
   imports: [
@@ -38,7 +39,7 @@ import { HomeComponent } from "./home/home.component";
       { path: "**", redirectTo: "" }
     ])
   ],
-  declarations: [AppComponent, ExamplesComponent, HomeComponent],
+  declarations: [AppComponent, ExamplesComponent, HomeComponent, BottomBarComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
